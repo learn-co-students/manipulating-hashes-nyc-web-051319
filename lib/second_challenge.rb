@@ -8,8 +8,6 @@ def second_challenge
 
   #code your solution here!
 
-  #groceries.collect do |key|
-    #key.values
-  #end
-  ["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]
+  groceries.values.flatten
+  
 end
